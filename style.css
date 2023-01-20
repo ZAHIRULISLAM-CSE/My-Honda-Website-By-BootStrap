@@ -27,8 +27,8 @@
         display: none;
     }
     .copyright-mobile{
-        margin-top: 3vh;
-        margin-left: 2vh;
+        padding-top: 30px;
+        margin-left: 20px;
     }
 }
 @media screen  and (min-width:577px) {
