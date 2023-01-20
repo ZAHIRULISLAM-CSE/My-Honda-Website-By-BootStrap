@@ -1,0 +1,38 @@
+.toogler-button{
+    display: flex;
+    justify-content: end !important;
+}
+.banner-padding {
+    padding: 5rem;
+}
+.img-padding{
+    padding: 1em !important;
+}
+.gap{
+    gap: 3vw;
+}
+
+@media screen and (max-width:576px) {
+    .latest{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5vh;
+    }
+    .card{
+        width: 80vw !important;
+
+    }
+    .copyright-pc{
+        display: none;
+    }
+    .copyright-mobile{
+        margin-top: 3vh;
+        margin-left: 2vh;
+    }
+}
+@media screen  and (min-width:577px) {
+    .copyright-mobile{
+        display: none;
+    }  
+}
